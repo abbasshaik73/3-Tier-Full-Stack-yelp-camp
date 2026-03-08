@@ -7,4 +7,4 @@ COPY . .
 FROM flm as FINAL
 RUN npm install --production
 COPY . .
-CMD ["node", "index.js"]
+CMD npm start
